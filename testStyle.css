@@ -1,0 +1,41 @@
+#img1 {
+	background-image: url("imgOne.jpg");
+	height: 300px;
+	width: 300px;
+	background-repeat: no-repeat;
+	background-position: cover;
+	float: left;
+
+}
+#img2 {
+	background-image: url("imgTwo.jpg");
+	height: 300px;
+	width: 300px;
+	background-repeat: no-repeat;
+	background-position: cover;
+	float: left;
+	
+}
+
+#img3 {
+	background-image: url("imgThree.jpg");
+	height: 300px;
+	width: 300px;
+	background-repeat: no-repeat;
+	background-position: cover;
+	float: left;
+	
+}
+
+.container {
+	margin-top: 40vh !important;
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+.loader {
+	background-color: black;
+	position: fixed;
+	z-index: 99;
+}
